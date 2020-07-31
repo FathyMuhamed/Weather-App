@@ -1,0 +1,46 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background: url("weather.jpg") no-repeat center;
+  color: white;
+}
+
+.inputDate {
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+}
+.app__weather {
+  background-color: white;
+  color: black;
+  width: clamp(150px, 40%, 50%);
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 6px #555);
+  opacity: 0.9;
+}
+.weather__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date {
+  margin: 5px;
+  font-size: 2.5em;
+}
+.temp {
+  font-size: 6.5em;
+  margin: 0;
+}
+.temp sup {
+  font-size: 0.5em;
+}
+.nameCountry {
+  margin-bottom: 0.4em;
+  font-size: 2em;
+}
