@@ -19,7 +19,7 @@
 .app__weather {
   background-color: white;
   color: black;
-  width: clamp(150px, 40%, 50%);
+  width: clamp(320px, 40%, 50%);
   border-radius: 10px;
   filter: drop-shadow(2px 4px 6px #555);
   opacity: 0.9;
