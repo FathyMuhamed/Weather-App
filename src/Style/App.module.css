@@ -5,7 +5,10 @@
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  background: url("weather.jpg") no-repeat center;
+  background: url("weather.jpg"),
+    radial-gradient(#44444480, #1111113b) no-repeat center;
+  background-blend-mode: multiply;
+
   color: white;
 }
 
