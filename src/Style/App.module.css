@@ -6,9 +6,9 @@
   align-items: center;
   justify-content: space-evenly;
   background: url("weather.jpg"),
-    radial-gradient(#44444480, #1111113b) no-repeat center;
+    radial-gradient(#44444480, #1111113b) no-repeat;
   background-blend-mode: multiply;
-
+  background-position: center;
   color: white;
 }
 
